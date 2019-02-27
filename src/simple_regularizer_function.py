@@ -1,5 +1,5 @@
-import network
-import regularization
+from network import Network
+from regularization import Regularization
 import numpy as np
 
 
