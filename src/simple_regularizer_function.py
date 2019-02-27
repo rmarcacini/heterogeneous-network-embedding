@@ -72,7 +72,7 @@ class SimpleRegularizerFunction:
                 
 net = Network()
 net.setMemoryCache(True)
-net.loadCSV('network-acm.csv'')
+net.loadCSV('network-acm.csv')
 
 srf = SimpleRegularizerFunction(30,0.05)
 reg = Regularization(net,'labels-acm.csv')
